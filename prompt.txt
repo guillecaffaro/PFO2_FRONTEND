@@ -1,0 +1,176 @@
+Actúa como un agente senior de desarrollo frontend especializado en HTML, CSS, accesibilidad, diseño responsive y organización de proyectos web estáticos.
+
+OBJETIVO
+
+Crear la Interfaz de Acceso o Portada principal de un proyecto web para una práctica de Prompt Engineering en Agentes de IA.
+
+El proyecto debe iniciar en una página principal llamada index.html que funcione como portada de acceso y contenga tres accesos directos:
+
+1. Link al texto plano del prompt utilizado.
+2. Link a la Landing Page generada por el Primer Agente.
+3. Link a la Landing Page generada por el Segundo Agente.
+
+CONTEXTO DEL PROYECTO
+
+Este proyecto corresponde a una Práctica Formativa Obligatoria donde se utilizó un mismo prompt inicial en dos agentes de desarrollo distintos para generar dos versiones de una Landing Page.
+
+La finalidad de esta portada es permitir comparar visualmente ambos resultados desde una única página inicial.
+
+DATOS DEL PROYECTO
+
+Título principal:
+PFO2 - Prompt Engineering en Agentes de IA
+
+Subtítulo:
+Comparación de Landing Pages generadas con un mismo prompt inicial
+
+Estudiante:
+Monica Cáffaro
+
+Tema de la Landing Page:
+Empresa ficticia de venta de software llamada NexoSoft.
+
+Primer Agente:
+Nombre del agente: Claude
+Modelo utilizado: No detectado por el entorno
+
+Segundo Agente:
+Nombre del agente: Codex
+Modelo utilizado: No detectado por el entorno
+
+ESTRUCTURA ESPERADA DEL PROYECTO
+
+Organizar o respetar la siguiente estructura de archivos y carpetas:
+
+/index.html
+/styles.css
+/prompt.txt
+/agente-1/index.html
+/agente-2/index.html
+
+IMPORTANTE:
+No modificar el código interno de las landing pages generadas por los agentes. Solo crear o modificar la portada principal del proyecto y, si es necesario, el archivo de estilos de la portada.
+
+REQUISITOS DE LA PORTADA
+
+Crear una página principal index.html que incluya:
+
+1. ENCABEZADO PRINCIPAL
+
+Debe mostrar:
+
+* Título: PFO2 - Prompt Engineering en Agentes de IA.
+* Subtítulo: Comparación de Landing Pages generadas con un mismo prompt inicial.
+* Nombre de la estudiante: Monica Cáffaro.
+* Breve explicación del objetivo del trabajo.
+
+Texto sugerido:
+“Este proyecto compara dos Landing Pages generadas por agentes de IA a partir de un único prompt inicial. El objetivo es observar diferencias de diseño, estructura y resolución autónoma entre ambos agentes.”
+
+2. TRES ACCESOS DIRECTOS
+
+La portada debe contener tres tarjetas o botones principales:
+
+TARJETA 1:
+Título: Prompt utilizado
+Descripción: Texto plano del prompt inicial usado en ambos agentes.
+Link: prompt.txt
+Botón: Ver prompt
+
+TARJETA 2:
+Título: Landing Page - Primer Agente
+Descripción: Landing Page generada por Claude utilizando el modelo No detectado por el entorno.
+Link: agente-1/index.html
+Botón: Ver landing de Claude
+
+TARJETA 3:
+Título: Landing Page - Segundo Agente
+Descripción: Landing Page generada por Codex utilizando el modelo No detectado por el entorno.
+Link: agente-2/index.html
+Botón: Ver landing de Codex
+
+3. SECCIÓN DE ACLARACIÓN METODOLÓGICA
+
+Agregar una sección breve que diga:
+
+“El mismo prompt fue utilizado en ambos agentes de desarrollo. No se modificó manualmente el código generado por cada agente, con el fin de evaluar la capacidad de resolución autónoma y comparar los resultados obtenidos.”
+
+4. PIE DE PÁGINA
+
+Crear un footer simple con:
+
+* Nombre del proyecto.
+* Nombre de la estudiante.
+* Año actual.
+* Texto breve: “Práctica Formativa Obligatoria 2”.
+
+REQUISITOS DE DISEÑO
+
+La portada debe tener un diseño:
+
+* Moderno.
+* Limpio.
+* Tecnológico.
+* Profesional.
+* Responsive.
+* Fácil de navegar.
+
+Usar una estética coherente con una empresa de software y con la temática de inteligencia artificial.
+
+Paleta sugerida:
+
+* Azul oscuro.
+* Celeste.
+* Violeta.
+* Blanco.
+* Detalles en turquesa o verde.
+
+El diseño debe incluir:
+
+* Buen contraste.
+* Tarjetas visuales para los tres accesos.
+* Botones claros.
+* Espaciado ordenado.
+* Tipografía legible.
+* Adaptación correcta a celular, tablet y escritorio.
+
+REQUISITOS TÉCNICOS
+
+Crear o actualizar los siguientes archivos:
+
+* index.html
+* styles.css
+
+El archivo index.html debe enlazar correctamente el archivo styles.css.
+
+Todos los links deben funcionar de forma relativa:
+
+* prompt.txt
+* agente-1/index.html
+* agente-2/index.html
+
+No utilizar backend.
+No utilizar base de datos.
+No utilizar frameworks pesados.
+No usar imágenes externas con copyright.
+
+CRITERIOS DE CALIDAD
+
+Antes de finalizar, verificar que:
+
+* La portada se abra correctamente desde index.html.
+* Los tres accesos directos estén visibles.
+* Los links funcionen.
+* Se indiquen el nombre del agente y el modelo usado en cada landing.
+* La portada sea responsive.
+* El diseño sea claro y profesional.
+* No se haya modificado el código de las landing pages generadas por los agentes.
+
+FORMA DE ENTREGA
+
+Entregar el código completo de:
+
+* index.html
+* styles.css
+
+Al finalizar, indicar brevemente qué archivos se generaron o modificaron y cómo visualizar la portada localmente.

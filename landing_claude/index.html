@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NexoSoft | Software de gestión para empresas que crecen</title>
+<meta name="description" content="NexoSoft: software de gestión comercial, stock, CRM y reportes para pymes y emprendedores. Organizá tu negocio en un solo lugar.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ===================== HEADER ===================== -->
+<header class="header" id="inicio">
+  <div class="container header__inner">
+    <a href="#inicio" class="logo">Nexo<span>Soft</span></a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="navMenu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav" id="navMenu">
+      <a href="#inicio" class="nav__link">Inicio</a>
+      <a href="#nosotros" class="nav__link">Sobre nosotros</a>
+      <a href="#soluciones" class="nav__link">Soluciones</a>
+      <a href="#testimonios" class="nav__link">Testimonios</a>
+      <a href="#contacto" class="nav__link nav__link--cta">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__copy">
+        <p class="eyebrow">Gestión empresarial, sin fricción</p>
+        <h1 class="hero__title">Tu negocio, ordenado en un solo panel.</h1>
+        <p class="hero__subtitle">
+          NexoSoft une ventas, stock, clientes y reportes en un único sistema simple y seguro,
+          para que dejes de operar a ciegas y empieces a decidir con datos reales.
+        </p>
+        <div class="hero__actions">
+          <a href="#contacto" class="btn btn--primary">Solicitar una demo</a>
+          <a href="#soluciones" class="btn btn--ghost">Ver soluciones ↓</a>
+        </div>
+        <ul class="hero__trust">
+          <li>Sin instalaciones complejas</li>
+          <li>Datos cifrados</li>
+          <li>Soporte en español</li>
+        </ul>
+      </div>
+
+      <div class="hero__visual" aria-hidden="true">
+        <div class="dashboard">
+          <div class="dashboard__bar">
+            <span class="dot dot--a"></span><span class="dot dot--b"></span><span class="dot dot--c"></span>
+            <span class="dashboard__title">Panel NexoSoft</span>
+          </div>
+          <div class="dashboard__body">
+            <div class="dashboard__kpis">
+              <div class="kpi">
+                <span class="kpi__label">Ventas del mes</span>
+                <span class="kpi__value">$ 482.300</span>
+                <span class="kpi__trend kpi__trend--up">▲ 12,4%</span>
+              </div>
+              <div class="kpi">
+                <span class="kpi__label">Clientes activos</span>
+                <span class="kpi__value">1.247</span>
+                <span class="kpi__trend kpi__trend--up">▲ 6,1%</span>
+              </div>
+              <div class="kpi">
+                <span class="kpi__label">Stock crítico</span>
+                <span class="kpi__value">3 ítems</span>
+                <span class="kpi__trend kpi__trend--down">▼ revisar</span>
+              </div>
+            </div>
+            <div class="dashboard__chart">
+              <svg viewBox="0 0 280 90" class="chart-svg" preserveAspectRatio="none">
+                <polyline points="0,70 40,55 80,60 120,35 160,42 200,20 240,28 280,10" />
+                <polygon points="0,70 40,55 80,60 120,35 160,42 200,20 240,28 280,10 280,90 0,90" />
+              </svg>
+            </div>
+            <div class="dashboard__rows">
+              <div class="row"><span>Factura #1042</span><span class="badge badge--ok">Pagada</span></div>
+              <div class="row"><span>Factura #1043</span><span class="badge badge--pending">Pendiente</span></div>
+              <div class="row"><span>Pedido #882</span><span class="badge badge--ok">Enviado</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SOBRE NOSOTROS ===================== -->
+  <section class="about" id="nosotros">
+    <div class="container about__inner">
+      <div class="about__text">
+        <p class="eyebrow">Sobre nosotros</p>
+        <h2 class="section-title">Hacemos que gestionar tu empresa deje de ser un problema</h2>
+        <p class="about__lead">
+          NexoSoft es una empresa de software de gestión para pequeñas y medianas empresas.
+          Diseñamos sistemas digitales que reemplazan planillas sueltas, cuadernos y procesos manuales
+          por una plataforma única donde cada venta, cliente y producto está donde tiene que estar.
+        </p>
+        <p>
+          Trabajamos con emprendedores, comercios y profesionales independientes que necesitan
+          organizar su día a día sin volverse expertos en tecnología. El resultado: menos tiempo
+          perdido en tareas repetitivas y más claridad para tomar decisiones.
+        </p>
+      </div>
+
+      <ul class="benefits">
+        <li class="benefit">
+          <span class="benefit__icon" aria-hidden="true">⚙</span>
+          <h3>Procesos más simples</h3>
+          <p>Optimizamos tareas administrativas que hoy te quitan horas, automatizando lo repetitivo.</p>
+        </li>
+        <li class="benefit">
+          <span class="benefit__icon" aria-hidden="true">📦</span>
+          <h3>Control real del negocio</h3>
+          <p>Ventas, clientes y stock visibles y actualizados, sin planillas paralelas ni sorpresas.</p>
+        </li>
+        <li class="benefit">
+          <span class="benefit__icon" aria-hidden="true">⏱</span>
+          <h3>Tiempo de vuelta</h3>
+          <p>Menos tareas manuales repetitivas significa más horas para atender clientes y crecer.</p>
+        </li>
+        <li class="benefit">
+          <span class="benefit__icon" aria-hidden="true">📊</span>
+          <h3>Decisiones con datos</h3>
+          <p>Reportes claros que muestran qué funciona y qué no, sin necesidad de ser analista.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===================== SOLUCIONES ===================== -->
+  <section class="solutions" id="soluciones">
+    <div class="container">
+      <p class="eyebrow">Soluciones</p>
+      <h2 class="section-title">Un sistema, todas las áreas de tu negocio</h2>
+      <p class="section-subtitle">Elegí lo que necesitás hoy y sumá módulos a medida que tu empresa crece.</p>
+
+      <div class="cards">
+        <article class="card">
+          <span class="card__icon" aria-hidden="true">🧾</span>
+          <h3>Gestión comercial</h3>
+          <p>Facturación, ventas y caja en un solo lugar, con información siempre al día.</p>
+        </article>
+        <article class="card">
+          <span class="card__icon" aria-hidden="true">📦</span>
+          <h3>Control de stock</h3>
+          <p>Sabé qué tenés, qué falta y qué se vende más, en tiempo real y sin planillas.</p>
+        </article>
+        <article class="card">
+          <span class="card__icon" aria-hidden="true">🤝</span>
+          <h3>CRM de clientes</h3>
+          <p>Seguimiento de contactos, oportunidades y seguimiento postventa en un mismo historial.</p>
+        </article>
+        <article class="card">
+          <span class="card__icon" aria-hidden="true">🔁</span>
+          <h3>Automatización de tareas</h3>
+          <p>Recordatorios, alertas y procesos repetitivos que se ejecutan solos, sin que te ocupes.</p>
+        </article>
+        <article class="card">
+          <span class="card__icon" aria-hidden="true">📈</span>
+          <h3>Reportes e indicadores</h3>
+          <p>Paneles claros con la información clave de tu negocio, lista para decidir.</p>
+        </article>
+        <article class="card">
+          <span class="card__icon" aria-hidden="true">🎓</span>
+          <h3>Soporte y capacitación</h3>
+          <p>Acompañamiento humano para implementar el sistema y capacitar a tu equipo.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TESTIMONIOS ===================== -->
+  <section class="testimonials" id="testimonios">
+    <div class="container">
+      <p class="eyebrow">Testimonios</p>
+      <h2 class="section-title">Empresas que ya ordenaron su gestión</h2>
+
+      <div class="testimonial-grid">
+        <figure class="testimonial">
+          <span class="testimonial__quote" aria-hidden="true">“</span>
+          <blockquote>
+            Antes llevábamos el stock en una libreta. Con NexoSoft sabemos en segundos qué
+            tenemos y qué hay que reponer.
+          </blockquote>
+          <div class="testimonial__stars" aria-hidden="true">★★★★★</div>
+          <figcaption>
+            <strong>Marina Lobos</strong>
+            <span>Dueña de comercio de indumentaria</span>
+          </figcaption>
+        </figure>
+
+        <figure class="testimonial">
+          <span class="testimonial__quote" aria-hidden="true">“</span>
+          <blockquote>
+            El CRM nos ordenó el seguimiento de clientes. Ya no se nos pierde ninguna oportunidad
+            de venta.
+          </blockquote>
+          <div class="testimonial__stars" aria-hidden="true">★★★★★</div>
+          <figcaption>
+            <strong>Federico Quiroga</strong>
+            <span>Profesional independiente, consultoría</span>
+          </figcaption>
+        </figure>
+
+        <figure class="testimonial">
+          <span class="testimonial__quote" aria-hidden="true">“</span>
+          <blockquote>
+            Implementamos NexoSoft en una semana y el equipo lo adoptó sin problemas. Los reportes
+            nos cambiaron la forma de planificar.
+          </blockquote>
+          <div class="testimonial__stars" aria-hidden="true">★★★★★</div>
+          <figcaption>
+            <strong>Valeria Sosa</strong>
+            <span>Gerente de pyme de distribución</span>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACTO ===================== -->
+  <section class="contact" id="contacto">
+    <div class="container contact__inner">
+      <div class="contact__copy">
+        <p class="eyebrow">Contacto</p>
+        <h2 class="section-title">Conversemos sobre tu gestión</h2>
+        <p>
+          Contanos un poco sobre tu negocio y qué te gustaría resolver. Un asesor de NexoSoft
+          te va a responder a la brevedad para coordinar una demo sin costo.
+        </p>
+      </div>
+
+      <form class="form" id="contactForm" novalidate>
+        <div class="form__row">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" required autocomplete="name">
+        </div>
+        <div class="form__row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required autocomplete="email">
+        </div>
+        <div class="form__row">
+          <label for="empresa">Empresa o emprendimiento</label>
+          <input type="text" id="empresa" name="empresa" autocomplete="organization">
+        </div>
+        <div class="form__row">
+          <label for="solucion">Solución de interés</label>
+          <select id="solucion" name="solucion">
+            <option value="comercial">Gestión comercial</option>
+            <option value="stock">Control de stock</option>
+            <option value="crm">CRM de clientes</option>
+            <option value="automatizacion">Automatización de tareas</option>
+            <option value="reportes">Reportes e indicadores</option>
+            <option value="soporte">Soporte y capacitación</option>
+          </select>
+        </div>
+        <div class="form__row form__row--full">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        </div>
+        <div class="form__row form__row--full">
+          <button type="submit" class="btn btn--primary btn--block">Enviar consulta</button>
+        </div>
+        <p class="form__confirm" id="formConfirm" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <span class="logo logo--footer">Nexo<span>Soft</span></span>
+      <p>Gestión clara para empresas que quieren crecer.</p>
+    </div>
+
+    <nav class="footer__links">
+      <a href="#inicio">Inicio</a>
+      <a href="#nosotros">Sobre nosotros</a>
+      <a href="#soluciones">Soluciones</a>
+      <a href="#testimonios">Testimonios</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="footer__social">
+      <a href="#" aria-label="Instagram de NexoSoft">Instagram</a>
+      <a href="#" aria-label="LinkedIn de NexoSoft">LinkedIn</a>
+      <a href="#" aria-label="GitHub de NexoSoft">GitHub</a>
+    </div>
+  </div>
+  <div class="container footer__bottom">
+    <p>© <span id="year"></span> NexoSoft. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
