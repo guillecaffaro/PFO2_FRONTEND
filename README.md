@@ -294,11 +294,19 @@ A continuación se incluyen las capturas de pantalla de ambos sitios web generad
 
 ### Landing Page generada por Claude - Sonnet 4.6
 
-![Captura de la landing generada por Claude](Capturas/inicio_claude.png, Capturas/sobrenosotros_claude.png, Capturas/soluciones_claude.png, Capturas/testimonios_claude.pngl, Capturas/contacto_claude.png)
+<img src="Capturas/inicio_claude.png" width="600" alt="Inicio">
+<img src="Capturas/sobrenosotros_claude.png" width="600" alt="Sobre Nosotros">
+<img src="Capturas/soluciones_claude.png" width="600" alt="Soluciones">
+<img src="Capturas/testimonios_claude.png" width="600" alt="Testimonios">
+<img src="Capturas/contacto_claude.png" width="600" alt="Contacto">
 
 ### Landing Page generada por Codex - GPT-5.5
 
-![Captura de la landing generada por Codex](Capturas/inicio_codex.png, Capturas/sobrenosotros_codex.png, Capturas/soluciones_codex.png, Capturas/testimonios_codex.png, Capturas/contacto_codex.png)
+<img src="Capturas/inicio_codex.png" width="600" alt="Inicio">
+<img src="Capturas/sobrenosotros_codex.png" width="600" alt="Sobre Nosotros">
+<img src="Capturas/soluciones_codex.png" width="600" alt="Soluciones">
+<img src="Capturas/testimonios_codex.png" width="600" alt="Testimonios">
+<img src="Capturas/contacto_codex.png" width="600" alt="Contacto">
 
 ---
 
