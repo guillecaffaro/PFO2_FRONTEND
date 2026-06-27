@@ -42,8 +42,8 @@ El proyecto fue desplegado en Vercel mediante un único enlace que dirige a la p
 2. Landing Page generada por Claude.
 3. Landing Page generada por Codex.
 
-**Link al deploy:**
-PEGAR AQUÍ EL LINK DE VERCEL
+**Link al deploy en Vercel:**
+[https://pfo-2-frontend-two.vercel.app/]
 
 ---
 
